@@ -44,7 +44,6 @@ public class Main {
     private void showJPanelDemo() {
         headerLabel.setText("Container in action: JPanel");
         JPanel panel = new JPanel();
-        panel.setBackground(Color.magenta);
         panel.setLayout(new FlowLayout());
         panel.add(msglabel);
         controlPanel.add(panel);
